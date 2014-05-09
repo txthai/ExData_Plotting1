@@ -21,7 +21,7 @@ colnames(household)[1] <- "datetime"
 ## png(file="plot2.png", h=504, w=504)
 
 ## Plot line chart with paramenters to modify font size, and axis labels
-png(file="plot2.png", h=480, w=480)
+png(file="plot2.png", h=480, w=480, bg = "transparent")
 	par(ps=12)
 	plot(household$datetime,
 		household$Global_active_power,

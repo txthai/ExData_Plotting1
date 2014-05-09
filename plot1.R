@@ -21,7 +21,7 @@ colnames(household)[1] <- "datetime"
 ## png(file="plot1.png", h=504, w=504)
 
 ## Plot histogram with paramenters to modify font size, title, axis labels, bar color, axis sequences, and unprinted axes
-png(file="plot1.png", h=480, w=480)
+png(file="plot1.png", h=480, w=480, bg = "transparent")
 	par(ps=12)
 	hist(household$Global_active_power,
 		main="Global Active Power",

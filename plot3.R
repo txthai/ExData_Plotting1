@@ -21,7 +21,7 @@ colnames(household)[1] <- "datetime"
 ## png(file="plot3.png", h=504, w=504)
 
 ## Save as plot3.png
-png(file="plot3.png", h=480, w=480)
+png(file="plot3.png", h=480, w=480, bg = "transparent")
 	par(ps=12)
 	plot(household$datetime,
 		household$Sub_metering_1,

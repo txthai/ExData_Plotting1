@@ -21,7 +21,7 @@ colnames(household)[1] <- "datetime"
 ## png(file="plot4.png", h=504, w=504)
 
 ## Save as plot4.png
-png(file="plot4.png", h=480, w=480)
+png(file="plot4.png", h=480, w=480, bg = "transparent")
 	par(mfrow=c(2,2))
 
 	plot(household$datetime,
